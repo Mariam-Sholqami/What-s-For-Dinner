@@ -1,0 +1,113 @@
+/* =========================================
+   MEDIA QUERIES FILE
+   Mobile First Responsive System
+========================================= */
+
+/* =========================================
+   SMALL DEVICES
+   >= 576px
+========================================= */
+
+@media(min-width:576px) {
+
+}
+
+
+
+/* =========================================
+   MEDIUM DEVICES
+   >= 768px
+========================================= */
+
+@media(min-width:768px) {
+   /* nav */
+
+   .app-title {
+       font-size: var(--font-1-2);
+       line-height: var(--font-2);
+       }
+  .app-subtitle { 
+   font-size: var(--font--0875);
+  line-height: var(--font-1-25);
+ }
+
+ .avatar-img {
+  width: 40px;
+  height: 40px;
+}
+
+#headerMenu{
+  border-top: none;
+
+}
+/* main */
+.rating-badge {
+
+  font-size: var(--font-1);
+
+}
+.rating-count { font-size: var(--font--0875); }
+.stats-overlay {
+
+  padding: var(--space-1-2);
+}
+
+.stat-icon { font-size: var(--font-1-2); }
+.stat-label { font-size: var(--font--0875); }
+.stat-value {  font-size: var(--font-1);}
+
+ .recipe-title { font-size: 2.25rem; }
+ .recipe-description { font-size: var(--font-1-125); }
+
+ .warning-title { font-size: var(--font-1); }
+  .warning-text { font-size: var(--font--0875); }
+
+  .recipe-tabs .nav-link { font-size: var(--font-1); }
+
+  .nutrition-label { font-size: var(--font-1); }
+  .nutrition-value { font-size: var(--font-1-25); }
+
+  .btn-try-again { padding: 0.75rem 1.5rem; font-size:var(--font-1); }
+
+
+}
+
+
+
+/* =========================================
+   LARGE DEVICES
+   >= 992px
+========================================= */
+
+@media(min-width:992px) {
+    .recipe-grid {
+    grid-template-columns: 2fr 3fr;
+    height: 750px;
+  }
+  .recipe-media { height: 100%; }
+  .recipe-content { padding: 2.5rem; height: 100%; }
+
+}
+
+
+
+/* =========================================
+   EXTRA LARGE
+   >= 1200px
+========================================= */
+
+@media(min-width:1200px) {
+
+}
+
+
+
+/* =========================================
+   XXL DEVICES
+   >= 1400px
+========================================= */
+
+@media(min-width:1400px) {}
+
+
+
